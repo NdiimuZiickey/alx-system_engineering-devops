@@ -1,0 +1,2 @@
+#!/bin/bssh
+tail /etc/passwd
