@@ -24,8 +24,8 @@ frontend http_front
 
 backend http_back
     balance roundrobin
-    server web-01 100.25.200.151:80 check
-    server web-02 34.232.53.222:80 check
+    server 484576-web-01 100.25.200.151:80 check
+    server 484576-web-02 34.232.53.222:80 check
 EOT
 
 # Test HAProxy configuration
